@@ -1,0 +1,9 @@
+{
+  "name": "runtime",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "runArgs": [
+    "--gpus", "all"
+  ]
+}
